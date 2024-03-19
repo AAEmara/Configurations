@@ -1,0 +1,8 @@
+#!/usr/bin/bash
+# Installting virtual environment, so each project could have
+#+ its own dependencies.
+# Installing pip, a Python Package manager.
+sudo apt update
+sudo apt install -y python3-pip
+# Using pip to install virtualenv.
+pip install virtualenv
