@@ -7,14 +7,14 @@ set cursorline
 " Highlight cursor line underneath the cursor vertically.
 set cursorcolumn
 
-" Set shift width to 4 spaces.
-set shiftwidth=2
+" Set indentation settings for Python.
+autocmd FileType python set shiftwidth=4 tabstop=4 expandtab
 
-" Set tab width to 4 columns.
-set tabstop=2
+" Set indentation settings for HTML.
+autocmd FileType html set shiftwidth=2 tabstop=2
 
-" Use space characters instead of tabs.
-set expandtab
+" Set indentation settings for CSS.
+autocmd FileType css set shiftwidth=2 tabstop=2
 
 " Set the allowed number of lines to be copied less than 1000.
 set viminfo='100,<1000,s100,h
