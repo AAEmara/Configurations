@@ -16,6 +16,9 @@ set tabstop=2
 " Use space characters instead of tabs.
 set expandtab
 
+" Set the allowed number of lines to be copied less than 1000.
+set viminfo='100,<1000,s100,h
+
 set autoindent
 
 set smartindent
