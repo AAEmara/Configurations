@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+# Refreshing the local package index
+sudo apt update
+# Installing Node.js
+sudo apt install nodejs -y
+# Printing the Node.js version
+node -v
+# Installing Node.js package manage (npm)
+sudo apt install npm -y
