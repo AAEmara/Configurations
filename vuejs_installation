@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+# Installing Vue.js through npm
+sudo npm install -g @vue/cli
+# Printing the installed Vue.js version
+vue --version
