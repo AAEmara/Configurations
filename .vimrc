@@ -10,6 +10,12 @@ set cursorcolumn
 " Set indentation settings for Python.
 autocmd FileType python set shiftwidth=4 tabstop=4 expandtab
 
+" Set indentation settings for JavaScript.
+autocmd FileType javascript set shiftwidth=2 tabstop=2 expandtab
+
+" Set indentation settings for Vue.
+autocmd FileType vue set shiftwidth=2 tabstop=2 expandtab
+
 " Set indentation settings for HTML.
 autocmd FileType html set shiftwidth=2 tabstop=2
 
