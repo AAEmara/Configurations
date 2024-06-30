@@ -13,6 +13,9 @@ autocmd FileType python set shiftwidth=4 tabstop=4 expandtab
 " Set indentation settings for JavaScript.
 autocmd FileType javascript set shiftwidth=2 tabstop=2 expandtab
 
+" Set indentation settings for TypeScript.
+autocmd FileType typescript set shiftwidth=2 tabstop=2 expandtab
+
 " Set indentation settings for Vue.
 autocmd FileType vue set shiftwidth=2 tabstop=2 expandtab
 
